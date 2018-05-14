@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(string,string2){
 }
 
 function destructivelyAddElementToBeginningOfArray(string,string2){
-  return $string.unshift(string2)
+  return string.unshift(string2)
 }
 
 function addElementToEndOfArray() {
